@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "description": "",
   "main": "index.js",
-  "bin": { "ppt": "./bin/ippt" },
+  "bin": { "ppt": "./bin/ippt.js" },
   "dependencies": {
     "chokidar": "^1.0.0-rc3",
     "colors": "^1.1.2",
