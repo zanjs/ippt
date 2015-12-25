@@ -38,7 +38,7 @@ usemathjax: yes
 <pre><code class="markdown">/* 先写总的配置 */
 title: 这是title，网页名称
 speaker: 演讲者名称
-url: https://github.com/ipanli/ippt
+url: https://github.com/zanjs/ippt
 transition: 全局转场动画
 files: 引入的js和css文件，多个以半角逗号隔开
 highlightStyle: 代码高亮样式，默认monokai_sublime
@@ -86,7 +86,7 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.    s = ut + \frac{1}{2}at^2 $$
 
 ippt是基于nodejs写的支持 **Markdown!** 语法的网页PPT
 
-ippt：https://github.com/ipanli/ippt
+ippt：https://github.com/zanjs/ippt
 
 [slide]
 
