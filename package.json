@@ -1,9 +1,9 @@
 {
   "name": "ippt",
-  "version": "0.0.6",
-  "description": "",
-  "main": "index.js",
-  "bin": { "ppt": "./bin/ippt.js" },
+  "version": "0.0.7",
+  "description": "ppt,nodejs,javascript",
+  "main": "./bin/ippt",
+  "bin": { "ppt": "./bin/ippt" },
   "dependencies": {
     "chokidar": "^1.0.0-rc3",
     "colors": "^1.1.2",
