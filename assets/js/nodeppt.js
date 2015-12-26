@@ -1136,8 +1136,8 @@
     $win.getcurIndex = getcurIndex; //j外部控制跳转
     try {
         if (window.console && window.console.log) {
-            console.log('Powered By nodePPT, %c https://github.com/ksky521/nodePPT', 'color:red');
-            console.log('Install nodePPT: %c npm install -g nodeppt', 'color:red');
+            console.log('Powered By ippt, %c https://github.com/zanjs/ippt', 'color:red');
+            console.log('Install ippt: %c npm install -g ippt', 'color:red');
         }
     } catch (e) {}
 }(window, document, MixJS.event.broadcast, MixJS.loadJS, MixJS.loadCSS));
