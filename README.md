@@ -2,7 +2,7 @@ title: 述职报告
 speaker: zan 
 url: https://github.com/zanjs/ippt
 transition: move
-files: /js/demo.js,/css/demo.css,/js/zoom.js
+files: /js/demo.js,/css/demo.css
 theme: moon
 usemathjax: yes
 
