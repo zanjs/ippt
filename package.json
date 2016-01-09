@@ -1,6 +1,6 @@
 {
   "name": "ippt",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "ppt,nodejs,javascript",
   "main": "./bin/ippt",
   "bin": { "ppt": "./bin/ippt" },

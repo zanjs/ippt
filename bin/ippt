@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 var path = require('path');
-var panliPPT = require('../lib/panliPPT');
+var iPPT = require('../lib/iPPT');
 var versions = require('../package').version;
 var program = require('commander');
 var ipv4 = require('ipv4');
@@ -25,12 +25,12 @@ program
             return;
         }
 
-        panliPPT.create(filename, options)
+        iPPT.create(filename, options)
     }).on('--help', function () {
         console.log('  Examples:');
         console.log();
-        console.log('  panlippt create myslide');
-        console.log('  panlippt create myslide -d D:/webppt');
+        console.log('  iPPT create myslide');
+        console.log('  iPPT create myslide -d D:/webppt');
         console.log();
     });
 
@@ -54,13 +54,13 @@ program
             shouldAll = cmd.all;
             output = cmd.output;
         }
-        panliPPT.generate(filename, output, shouldAll, '');
+        iPPT.generate(filename, output, shouldAll, '');
     })
     .on('--help', function () {
         console.log('  Examples:');
         console.log();
-        console.log('  panlippt generate D:/webppt/demo.md -o D:/output');
-        console.log('  panlippt generate D:/webppt/ -o D:/output -a');
+        console.log('  iPPT generate D:/webppt/demo.md -o D:/output');
+        console.log('  iPPT generate D:/webppt/ -o D:/output -a');
         console.log();
     });
 
@@ -79,13 +79,13 @@ program
             return;
         }
 
-        panliPPT.start(cmd)
+        iPPT.start(cmd)
     })
     .on('--help', function () {
         console.log('  Examples:');
         console.log();
-        console.log('  panlippt start -d D:/webppt -p 8080');
-        console.log('  panlippt start -d D:/webppt -c socket');
+        console.log('  iPPT start -d D:/webppt -p 8080');
+        console.log('  iPPT start -d D:/webppt -c socket');
         console.log();
     });
 
@@ -102,12 +102,12 @@ program
             return;
         }
         console.log('  Warning: '.bold.red + 'This command is ' + 'Deprecated'.bold.red);
-        panliPPT.pdf([http_url, save_path])
+        iPPT.pdf([http_url, save_path])
     })
     .on('--help', function () {
         console.log('  Examples:');
         console.log();
-        console.log('  panlippt pdf http://127.0.0.1:8080/md/demo.md demo.pdf\n');
+        console.log('  iPPT pdf http://127.0.0.1:8080/md/demo.md demo.pdf\n');
         console.log('  Warning: '.bold.red + 'This command is ' + 'Deprecated'.bold.red);
         console.log();
     });
