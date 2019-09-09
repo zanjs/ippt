@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "assets/js/mixjs/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
